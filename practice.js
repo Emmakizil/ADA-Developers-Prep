@@ -27,4 +27,13 @@ console.log(multiply(6,3))
 } 
 console.log(result(2,6))
 
-//function for logarithm
+///log base of 2 and base 10
+function logarithm(num, base){
+  let log = 0
+  for (let i = num; i>=base; i/=base ){
+    log++
+  } return log
+  };
+  console.log(logarithm(1000,10))
+  console.log(logarithm(36,6))
+  //while???
